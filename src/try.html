@@ -1,0 +1,43 @@
+<html>
+
+<body>
+    <!-- about classes -->
+    <script>
+        class Car {
+            constructor(color, owner) {
+                this.color = color;
+                this.owner = owner;
+            }
+            printdetail() {
+                return "my car is of " + this.color + " color and it is " + this.owner + "'s"
+
+            }
+        }
+
+        const alex = new Car("Red", "manas");
+
+        // document.write(alex.printdetail());
+
+    </script>
+
+
+<!-- defining function -->
+    <script>
+        fun1 = function(x){ return "hello "+x}
+        fun2 = (x) => {return "hello" + x}
+
+        document.write(fun1("a"));
+    </script>
+
+<!-- .map() method allows you to run a function on each item in the array -->
+    <script>
+        const myArray = ['apple', 'banana', 'orange'];
+        const myList = myArray.map((item) => <p>{item}</p>)
+    </script>
+
+<!-- for exporting ==> export { name, age } -->
+<!-- for importing ==> import { name, age } from "./person.js"; -->
+
+</body>
+
+</html>

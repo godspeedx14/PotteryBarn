@@ -1,0 +1,82 @@
+.hero {
+}
+
+.hero-content {
+  text-align: center;
+  width: 100%;
+  /* max-width: 500px; */
+}
+
+.hero-image-link {
+  display: block;
+  /* Ensures the link takes up the width of the image */
+  margin: 0 auto;
+  /* Center the image within the hero section */
+}
+
+.hero-image {
+  max-width: 100%;
+  /* Ensure the image is responsive */
+  height: auto;
+  /* Maintain the image aspect ratio */
+}
+
+.cta-button {
+  background-color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.trending {
+  padding: 40px 20px;
+}
+
+.trending h4 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-family: "TT-Norms-Pro", "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.trending-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.trending-item {
+  flex: 1;
+}
+
+.trending-item img {
+  width: 100%;
+  height: auto;
+}
+
+.sentence {
+  padding: 40px 0 30px;
+  text-align: center;
+  font-size: 21px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1620px; /* Adjust based on your layout needs */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.diningconsole {
+  width: 48%; /* Slightly less than 50% to account for gap */
+  position: relative;
+}
+
+.diningconsole img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

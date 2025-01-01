@@ -1,0 +1,50 @@
+.product-carousel {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 100px;
+  width: 100%;
+
+  overflow: hidden;
+}
+
+.carousel-container {
+  position: relative;
+}
+
+.product-list {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-item {
+  flex: 0 0 20%;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-item p {
+  font-size: small;
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.scroll-button.left {
+  left: 10px;
+}
+
+.scroll-button.right {
+  right: 10px;
+}

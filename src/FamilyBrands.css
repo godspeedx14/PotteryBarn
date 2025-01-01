@@ -1,0 +1,46 @@
+.family-brands {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  background-color: #f0ebe3;
+  margin: 20px auto;
+}
+
+.family-brands h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.brand-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand-item {
+  width: 48%;
+  position: relative;
+  overflow: hidden;
+}
+
+.brand-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.brand-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-overlay h3 {
+  color: #fff;
+  font-size: 24px;
+  text-transform: lowercase;
+}

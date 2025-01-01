@@ -1,0 +1,63 @@
+.gift-collections {
+  display: flex;
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.left-column {
+  width: 25%;
+  padding-right: 20px;
+}
+
+.candles-fragrances,
+.bar-accessories {
+  margin-top: 60px;
+}
+
+.candles-fragrances img,
+.bar-accessories img {
+  width: 100%;
+  height: auto;
+}
+
+.candles-fragrances p,
+.bar-accessories p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.main-content {
+  width: 75%;
+}
+
+.main-content h1 {
+  font-size: 48px;
+  margin-bottom: 0;
+}
+
+.main-content h2 {
+  font-size: 24px;
+  margin-top: 0;
+  color: #888;
+}
+
+.main-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.main-content button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.room-display img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}

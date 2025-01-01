@@ -1,2 +1,3 @@
 # PotteryBarn
-A clone of the PotteryBarn site made using React.
+
+A attempt to recreate https://www.potterybarn.com/ using react

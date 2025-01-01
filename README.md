@@ -39,12 +39,20 @@ Make sure you have the following installed on your system before running this pr
 
 ## Running the Project
 
-To start the development server, use the following command:
+1. To start the development server, use the following command:
 
-  ```bash
-  npm start
+   ```bash
+   npm start
 
 
 
 This will start the React application, and you can view it in your browser at http://localhost:3000.
+   
+  
+
+
+
+
+
+
 

@@ -1,11 +1,3 @@
-# 
-
-A attempt to recreate https://www.potterybarn.com/ using react
-
-
-
-Steps to run-
-
 # PotteryBarn
 
 This repository contains a React project designed to recreate UI of POTTERYBARN(https://www.potterybarn.com/) using react
